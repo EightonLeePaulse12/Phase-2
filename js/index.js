@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".next").on("click", function () {
+  $(".arrow").on("click", function () {
     var currentImg = $(".active");
     var nextImg = currentImg.next();
     if (nextImg.length) {
@@ -9,13 +9,13 @@ $(document).ready(function () {
   });
   $(".prev").on("click", function () {
     var currentImg = $(".active");
-    var prevImg = currentImg.prev();
+    var prevImg = currentImg.arrow();
     if (prevImg.length) {
       currentImg.removeClass().css("z-index", -10);
       prevImg.addClass("active").css("z-index", 10);
     }
   });
-  $(".next").on("click", function () {
+  $(".arrow").on("click", function () {
     var currentSVG = $(".activeSVG");
     var nextSVG = currentSVG.next();
     if (nextSVG.length) {
