@@ -91,7 +91,7 @@
     position: absolute;
     left: 80%;
     top: 57%;
-    z-index: 50;
+    z-index: 1000;
 }
 .sirc {
     height: auto;
@@ -115,6 +115,9 @@
 }
 .blue-hero p {
     margin-top: 3%;
+}
+.visio-text{
+    font-size:1.1rem;
 }
 .black-banner {
     background-color: black;
