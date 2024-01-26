@@ -83,6 +83,11 @@
 }
 .slidein img.active {
     display: inline-block;
+    object-fit: cover;
+    object-position: center bottom;
+}
+.slidein img.active:nth-child(1){
+    object-position: center center;
 }
 .arrow {
     height: 70px;
