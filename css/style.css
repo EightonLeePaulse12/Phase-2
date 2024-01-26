@@ -84,7 +84,7 @@
 .slidein img.active {
     display: inline-block;
 }
-.next {
+.arrow {
     height: 70px;
     width: 80px;
     cursor: pointer;
@@ -137,7 +137,7 @@
         width: 100%;
     }
 
-    .next {
+    .arrow {
         left: 85%;
         top: 57%;
     }
@@ -214,7 +214,7 @@
         width: 100%;
         height: 450px;
     }
-    .next {
+    .arrow {
         top: 38%;
         left: 85%;
     }
@@ -250,7 +250,7 @@
         width: 100%;
         height: 400px;
     }
-    .next {
+    .arrow {
         top: 38%;
         left: 85%;
     }
@@ -276,7 +276,7 @@
         width: 100%;
         height: 400px;
     }
-    .next {
+    .arrow {
         top: 50%;
         left: 86%;
     }
@@ -297,7 +297,7 @@
     }
 }
 @media screen and (max-width: 731px) {
-    .next {
+    .arrow {
         height: 60px;
         width: 70px;
         left: 85%;
@@ -334,7 +334,7 @@
         width: 100%;
         height: 300px;
     }
-    .next {
+    .arrow {
         top: 33%;
         left: 77%;
     }
@@ -360,7 +360,7 @@
         width: 100%;
         height: 300px;
     }
-    .next {
+    .arrow {
         top: 33%;
         left: 77%;
     }
@@ -394,7 +394,7 @@
         width: 100%;
         height: 300px;
     }
-    .next {
+    .arrow {
         top: 33%;
         left: 77%;
     }
@@ -427,7 +427,7 @@
         width: 100%;
         height: 200px;
     }
-    .next {
+    .arrow {
         top: 23%;
         left: 80%;
         height: 40px;
@@ -446,7 +446,7 @@
 }
 
 /* About Sec */
-.about-sec {
+.about-sect {
     display: flex;
     justify-content: space-evenly;
     padding: 2.6rem 5rem;
@@ -454,40 +454,40 @@
 .about-text  {
     width: 50%;
 }
-.about-img img {
+.about-image img {
     width: 22rem;
     height: auto;
 }
 @media screen and (max-width: 1080px){
-    .about-sec {
+    .about-sect {
         display: flex;
         justify-content: space-evenly;
         padding: 2.6rem 3.6rem;
     }
 }
 @media screen and (max-width: 1024px) {
-    .about-sec {
+    .about-sect {
         display: flex;
         justify-content: space-evenly;
         padding: 2.6rem 3.3rem;
     }
 }
 @media screen and (max-width: 846px) {
-    .about-sec {
+    .about-sect {
         display: flex;
         justify-content: space-evenly;
         padding: 2.6rem 2rem;
     }
 }
 @media screen and (max-width: 828px) {
-    .about-sec {
+    .about-sect {
         display: flex;
         justify-content: space-evenly;
         padding: 2.6rem 4rem;
     }
 }
 @media screen and (max-width: 812px) {
-    .about-sec {
+    .about-sect {
         display: flex;
         justify-content: space-evenly;
         padding: 2.6rem 0rem;
@@ -495,65 +495,65 @@
     .about-text  {
         width: 52%;
     }
-    .about-img img {
+    .about-image img {
         width: 14rem;
         height: auto;
         padding: 2rem 0 0 0;
     }
 }
 @media screen and (max-width: 768px) {
-    .about-sec {
+    .about-sect {
         padding: 2rem 2.3rem;
     }
     .about-text  {
         width: 50%;
     }
-    .about-img img {
+    .about-image img {
         width: 20rem;
         height: auto;
     }
 }
 @media screen and (max-width: 742px) {
-    .about-sec {
+    .about-sect {
         padding: 2rem 1.4rem;
     }
 }
 @media screen and (max-width: 731px) {
-    .about-sec {
+    .about-sect {
         padding: 2.5rem 0rem;
     }
     .about-text  {
         width: 52%;
     }
-    .about-img img {
+    .about-image img {
         width: 17rem;
         height: auto;
         padding: 2rem 0 0 0;
     }
 }
 @media screen and (max-width: 710px) {
-    .about-sec {
+    .about-sect {
         padding: 2.5rem 0.4rem;
     }
 }
 @media screen and (max-width: 690px) {
-    .about-sec {
+    .about-sect {
         padding: 2.5rem 2rem;
     }
 }
 @media screen and (max-width: 667px) {
-    .about-sec {
+    .about-sect {
         padding: 2.5rem 1.4rem;
     }
 }
 @media screen and (max-width: 632px) {
-    .about-sec {
+    .about-sect {
         padding: 2.5rem 0rem;
     }
     .about-text  {
         width: 50%;
     }
-    .about-img img {
+    .about-image img {
         width: 12rem;
         height: auto;
         padding: 3rem 0 0 0;
@@ -565,36 +565,36 @@
     }
 }
 @media screen and (max-width: 562px) {
-    .about-sec {
+    .about-sect {
         padding: 2.5rem 0.5rem;
     }
 }
 @media screen and (max-width: 510px) {
-    .about-sec {
+    .about-sect {
         padding: 2.5rem 0.3rem;
     }
 }
 @media screen and (max-width: 516px){
-    .about-sec {
+    .about-sect {
         padding: 2.5rem 0;
     }
 }
 @media screen and (max-width: 502px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 2.5rem 1.2rem;
     }
     .about-text  {
         width: 100%;
     }
-    .about-img img {
+    .about-image img {
         width: 17rem;
         height: auto;
         padding: 1rem 0 0 0;
     }
 }
 @media screen and (max-width: 480px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 0px;
     }
@@ -602,14 +602,14 @@
         width: 99%;
         padding: 10px;
     }
-    .about-img img {
+    .about-image img {
         width: 22rem;
         height: auto;
         padding: 30px;
     }
 }
 @media screen and (max-width: 481px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 5px;
     }
@@ -617,14 +617,14 @@
         width: 99%;
         padding: 10px;
     }
-    .about-img img {
+    .about-image img {
         width: 22rem;
         height: auto;
         padding: 19px;
     }
 }
 @media screen and (max-width: 466px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 5px 33px;
     }
@@ -632,59 +632,59 @@
         width: 99%;
         padding: 10px 0;
     }
-    .about-img img {
+    .about-image img {
         width: 22rem;
         height: auto;
         padding: 19px;
     }
 }
 @media screen and (max-width: 442px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 5px 22px;
     }
 }
 @media screen and (max-width: 411px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 32px;
     }
-    .about-img img {
+    .about-image img {
         width: 20rem;
         height: auto;
         padding: 15px 0;
     }
 }
 @media screen and (max-width: 388px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 24px;
     }
 }
 @media screen and (max-width: 375px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 10px;
     }
-    .about-img img {
+    .about-image img {
         width: 18rem;
         height: auto;
         padding: 15px;
     }
 }
 @media screen and (max-width: 347px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 10px 30px;
     }
-    .about-img img {
+    .about-image img {
         width: 18rem;
         height: auto;
         padding: 15px;
     }
 }
 @media screen and (max-width: 320px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 26px 32px;
     }
@@ -692,14 +692,14 @@
         width: 99%;
         padding: 0px;
     }
-    .about-img img {
+    .about-image img {
         width: 16rem;
         height: auto;
         padding: 4px;
     }
 }
 @media screen and (max-width: 270px) {
-    .about-sec {
+    .about-sect {
         display: grid;
         padding: 26px 17px;
     }
@@ -734,7 +734,7 @@
     justify-content: center;
     column-gap: 10px;
 }
-.sub-boxs {
+.sub-boxes {
     background-color: #244ac2;
     color: white;
     height: 2rem;
@@ -744,7 +744,7 @@
     font-size: xx-small;
     padding: 2px 10px;
 }
-.sub-boxs img {
+.sub-boxes img {
     width: 1.5rem;
 }
 @media screen and (max-width: 1080px) {
@@ -810,7 +810,7 @@
     .sub-box {
         grid-template-columns: 7rem 7rem;
     }
-    .sub-boxs img {
+    .sub-boxes img {
         width: 1rem;
     }
 }
@@ -825,7 +825,7 @@
         grid-template-columns: 13rem;
         row-gap: 6px;
     }
-    .sub-boxs img {
+    .sub-boxes img {
         width: 1rem;
     }
 }
@@ -840,7 +840,7 @@
         grid-template-columns: 13rem;
         row-gap: 6px;
     }
-    .sub-boxs img {
+    .sub-boxes img {
         width: 1rem;
     }
 }
@@ -852,7 +852,7 @@
         grid-template-columns: 12rem;
         row-gap: 6px;
     }
-    .sub-boxs img {
+    .sub-boxes img {
         width: 1rem;
     }
     .box-1 {
@@ -867,7 +867,7 @@
         grid-template-columns: 11rem;
         row-gap: 6px;
     }
-    .sub-boxs img {
+    .sub-boxes img {
         width: 1rem;
     }
     .box-1 {
@@ -969,7 +969,7 @@
         grid-template-columns: 16rem;
         column-gap: 18px;
     }
-    .sub-boxs img {
+    .sub-boxes img {
         width: 1rem;
     }
 }
